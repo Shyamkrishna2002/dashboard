@@ -4,7 +4,7 @@ import MainContent from "./components/maincontent";
 export default function Home() {
   return (
    <div>
-<MainContent />
+<Dashboard />
    </div>
   );
 }

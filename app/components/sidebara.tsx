@@ -17,7 +17,7 @@ import MainContent from "./maincontent";
 import { usePathname } from "next/navigation";
 import Sidebarelements from "./sidebarelements";
 
-export default function Dashboard() {
+export default function Sidebar() {
   const navItems = [
     { label: "Dashboard", icon: LineChart, href: "/dashboard" },
     { label: "Reservation", icon: CalendarCheck,href: "/reservation" },
